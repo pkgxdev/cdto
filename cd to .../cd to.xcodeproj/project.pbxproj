@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		699EB3C0234DBA0D00CC2315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699EB3BF234DBA0D00CC2315 /* Assets.xcassets */; };
+		63A57FB02D1F811A00AB393B /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63A57FAF2D1F811A00AB393B /* AppIcon.icns */; };
 		699EB3C6234DBA0D00CC2315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 699EB3C5234DBA0D00CC2315 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63A57FAF2D1F811A00AB393B /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		699EB3B9234DBA0C00CC2315 /* cd to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cd to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		699EB3BF234DBA0D00CC2315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699EB3C4234DBA0D00CC2315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699EB3C5234DBA0D00CC2315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		699EB3C7234DBA0D00CC2315 /* cd_to.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cd_to.entitlements; sourceTree = "<group>"; };
@@ -51,9 +51,9 @@
 		699EB3BB234DBA0C00CC2315 /* cd to ... */ = {
 			isa = PBXGroup;
 			children = (
+				63A57FAF2D1F811A00AB393B /* AppIcon.icns */,
 				699EB3D2234DBB0700CC2315 /* Finder.h */,
 				699EB3D3234DBB0700CC2315 /* Terminal.h */,
-				699EB3BF234DBA0D00CC2315 /* Assets.xcassets */,
 				699EB3C4234DBA0D00CC2315 /* Info.plist */,
 				699EB3C5234DBA0D00CC2315 /* main.m */,
 				699EB3C7234DBA0D00CC2315 /* cd_to.entitlements */,
@@ -118,7 +118,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699EB3C0234DBA0D00CC2315 /* Assets.xcassets in Resources */,
+				63A57FB02D1F811A00AB393B /* AppIcon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +278,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 3;
+				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = VURRGRYW45;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "cd to .../Info.plist";
