@@ -9,6 +9,11 @@ Finder Toolbar app to open the current directory in the Terminal.
 By Jay Tuley
 https://github.com/jbtule/cdto
 
+> [!NOTE]
+> ### pkgx updates
+> * we added code to open the default terminal based on the the system UTIs
+> * we updated the icon from a user contribution
+
 ### Usage:
 
 Download [Latest cdto.zip](https://github.com/jbtule/cdto/releases/latest)
